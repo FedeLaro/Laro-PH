@@ -1,0 +1,28 @@
+h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: black;
+    span {
+        display: block;
+        color: brown;
+    }
+    & + p {
+        margin-bottom: 2rem;
+    }
+    & + h2 {
+        margin-top: 1rem;
+    }
+}
+p {
+    font-size: 25px;
+    text-decoration: underline;
+    &.color-red {
+        color: red;
+    }
+    &.color-blue {
+        color: blue;
+    }
+    &.color-yellow {
+        color: yellow;
+    }
+}
