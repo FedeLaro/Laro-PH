@@ -19,7 +19,7 @@ h3 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 p {
@@ -31,6 +31,12 @@ p {
 
 section {
     padding: 120px 0;
+}
+
+.shoot {
+    position: absolute;
+    top: 600px;
+    left: 100px;
 }
 
 .bg-dark {
@@ -65,8 +71,13 @@ section {
 
 .btn-dark {
     background-color: #1a1a1a;
+    font-size: 18px;
     color: #ffffff;
     border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 2px;
+    height: auto;
+    margin: 5px;
 }
 
 .full-width {
@@ -149,6 +160,7 @@ section {
 
 #hero p {
     color: #ffffff;
+    font-size: 25px;
 }
 
 .content-center {
@@ -189,6 +201,7 @@ section {
 
 .portfolio-details a h2, .portfolio-details a p {
     color: #ffffff;
+    text-decoration: none;
 }
 
 #footer {
@@ -221,14 +234,3 @@ section {
         font-size: 20px;
     }
 }
-
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
-
-
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
-
-
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
-
-
-@media (min-width: 1200px) { ... }
