@@ -33,12 +33,6 @@ section {
     padding: 120px 0;
 }
 
-.shoot {
-    position: absolute;
-    top: 600px;
-    left: 100px;
-}
-
 .bg-dark {
     background-color: #1a1a1a !important;
 }
